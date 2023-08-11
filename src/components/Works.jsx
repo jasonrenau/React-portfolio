@@ -59,19 +59,16 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My works</p>
-        <h2 className={styles.sectionHeadText}>Project.</h2>
+        <p className={styles.sectionSubText}>Mon travail</p>
+        <h2 className={styles.sectionHeadText}>Mes projets.</h2>
       </motion.div>
       <div className="flex w-full">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 max-w-3xl text-[17px] leading-[30px] text-secondary"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
-          quas? Dicta est voluptas aliquid nihil ut temporibus ipsam quibusdam
-          labore? Impedit facere dicta officia modi sit, unde est facilis, optio
-          dignissimos mollitia perferendis. Natus eum numquam inventore illo!
-          Architecto, asperiores!
+          Voici une présentation de projets, qui sera completé tout au long de
+          ma formation.
         </motion.p>
       </div>
 

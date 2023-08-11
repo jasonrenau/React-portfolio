@@ -1,170 +1,113 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from '../assets';
+  videv,
+  foreach,
+  groceryBud,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "A propos",
   },
   {
-    id: 'work',
-    title: 'Work',
+    id: "work",
+    title: "Mon expérience",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Web Developer',
+    title: "Développeur web",
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: "React Développeur",
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: "Développeur Backend",
     icon: backend,
-  },
-  {
-    title: 'Content Creator',
-    icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "HTML 5",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "CSS 3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
+    name: "React JS",
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
+    name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: 'Node JS',
+    name: "Node JS",
     icon: nodejs,
   },
   {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
-  },
-  {
-    name: 'git',
+    name: "git",
     icon: git,
   },
   {
-    name: 'figma',
+    name: "figma",
     icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: "Formation Développeur web et web mobile",
+    company_name: "Foreach Academy",
+    icon: foreach,
+    iconBg: "#383E56",
+    date: "Avril 2023 - Aujourd'hui",
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      "Apprentisage du Html,Css,Javascript.",
+      "Cours de UX/UI design, découverte de Figma et ces fonctions",
+      "Back end: Node.js, express, sql et leurs librairies.",
+      "Découverte et apprentissage de React/React-router",
+      "Framework Css: Boostrap, Tailwindcss, Styled-component",
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    title: "Formation De ViDev",
+    company_name: "Vi Dev",
+    icon: videv,
+    iconBg: "#E6DEDD",
+    date: "Août 2023 - Aujourd'hui",
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      "Apprendre React en entreprise.",
+      "React: Les hooks,Cycles de vie, Custom hooks, Réusabilité, Best practices.",
+      "Styled-components: Styling localisé, Desing system, Animation react, Sass/Scss.",
+      "Context: Global state, Management, Best practices, Optimisation de performance.",
+      "React-router: Navigation, Routing, Dynamic pages, Action, Loader etc...",
+      "Firebase: Firestore CRUD, No sql Database, Real-time DB, Authentification, Cloud storage.",
     ],
   },
 ];
@@ -172,93 +115,51 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: "Grocery Bud",
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      "Création d'une liste de courses réalisé en React/express avec systeme de login et authentification via token.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: "express js",
+        color: "green-text-gradient",
       },
       {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
+        name: "react-router",
+        color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: groceryBud,
+    source_code_link: "https://github.com/jasonrenau/React-groceryBud",
   },
 ];
 

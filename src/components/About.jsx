@@ -31,15 +31,15 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Mes compétences.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 max-w-3xl text-[17px] leading-[30px] text-secondary"
       >
-        Je suis developpeur web et web mobile. Orienté javascript, j'utilise
-        princapelement la bibliothèque React/Node, stylisé sous Tailwincss ou
-        Styled-Components.
+        Je suis développeur web et web mobile. Orienté Javascript,
+        j&apos;utilise Principalement la bibliothèque react/Node, stylisé sous
+        Tailwindcss ou Styled-Components.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
